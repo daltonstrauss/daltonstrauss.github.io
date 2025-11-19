@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dalton Strauss - Senior SRE</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --light: #ecf0f1;
+            --text: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            margin-top: -2rem;
+            border-radius: 8px;
+        }
+        
+        .profile-img-container {
+            text-align: center;
+            margin-top: -5rem;
+            margin-bottom: 2rem;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd; /* Placeholder color */
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            /* Replace src below with your actual photo URL */
+        }
+
+        h2 { color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; margin-top: 2rem;}
+        h3 { color: var(--accent); margin-bottom: 0.5rem; }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .skill-card {
+            background: var(--light);
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .skill-card strong { display: block; color: var(--primary); margin-bottom: 0.5rem; }
+
+        .job { margin-bottom: 2rem; }
+        .job-meta { font-style: italic; color: #666; font-size: 0.9rem; margin-bottom: 1rem; }
+        
+        .contact-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        .contact-btn:hover { background: #2980b9; }
+
+        ul { padding-left: 1.2rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dalton Strauss</h1>
+    <p>Senior Site Reliability Engineer (SRE) | Cloud Platform Specialist</p>
+</header>
+
+<div class="container">
+    <div class="profile-img-container">
+        <img src="https://via.placeholder.com/150" alt="Dalton Strauss" class="profile-img">
+    </div>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am an experienced Senior Site Reliability Engineer with a proven track record of leading teams, driving system reliability, and optimising infrastructure. 
+            With over 19 years of experience in Linux, Networking, and Security, I am currently focused on building high-performing SRE teams and integrating Generative AI solutions into cloud platforms.
+        </p>
+    </section>
+
+    <section>
+        <h2>Key Competencies</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><strong>AWS & Cloud</strong>10 Years Exp </div>
+            <div class="skill-card"><strong>Kubernetes & Containers</strong>10 Years Exp </div>
+            <div class="skill-card"><strong>Linux Systems</strong>15 Years Exp </div>
+            <div class="skill-card"><strong>Observability</strong>Prometheus, NewRelic, ELK</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        
+        <div class="job">
+            <h3>OLX Group | Senior Site Reliability Engineer</h3>
+            <div class="job-meta">Porto, Portugal | Oct 2022 - Present </div>
+            <ul>
+                <li>Integrate the GenAI team to create a platform to develop AI components using AWS Bedrock and Google Gemini.</li>
+                <li>Implemented secure Kubernetes service connections using NGINX IngressController and AWS PrivateLink.</li>
+                <li>Reduced team dependency on SRE by implementing Slack bots for routine AWS tasks.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Faro Technologies | Senior SRE</h3>
+            <div class="job-meta">Porto, Portugal | Sep 2021 - Oct 2022</div>
+            <ul>
+                <li>Led the creation and support of Azure DevOps pipelines, improving deployment efficiency by 30%.</li>
+                <li>Supported AWS infrastructure using Helm, Terraform, and EKS.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Bosch Ovar | Senior DevOps Engineer</h3>
+            <div class="job-meta">Porto, Portugal | Aug 2020 - Aug 2021</div>
+            <ul>
+                <li>Led the migration of Monolith applications to Kubernetes.</li>
+                <li>Provided team training in Cloud Native applications.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education & Courses</h2>
+        <ul>
+            <li><strong>Udacity:</strong> Building Generative AI Solutions and Generative AI Products (Nano Course)</li>
+            <li><strong>MBA:</strong> Information Technology Administration and Management </li>
+            <li><strong>Degree:</strong> Industrial Networking </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <p>
+            GCP Professional Cloud Network Engineer  • PMP (Project Manager Professional)  • ITILv3 
+        </p>
+    </section>
+
+    <div style="text-align: center; margin-top: 3rem;">
+        <a href="mailto:daltonstrauss@gmail.com" class="contact-btn">Contact Me</a>
+        <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">+351 913 040 642 </p>
+    </div>
+</div>
+
+</body>
+</html>
